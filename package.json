@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://reyrin.github.io/Todo-JS/",
+  "scripts": {
+    "start": "concurrently \"http-server -a localhost -p 3001 ./src\" \"start http://localhost:3001\"",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reyrin/Todo-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reyrin/Todo-JS/issues"
+  },
+  "homepage": "https://github.com/Reyrin/Todo-JS#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "gh-pages": "^3.2.3",
+    "http-server": "^14.1.0"
+  }
+}
